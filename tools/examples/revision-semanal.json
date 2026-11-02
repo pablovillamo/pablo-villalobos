@@ -1,0 +1,10 @@
+{
+ "slug": "primera-revision-semanal-ecommerce",
+ "title": "Qué llevar a la primera revisión semanal de tu ecommerce",
+ "query": "cómo preparar una reunión de seguimiento ecommerce",
+ "intent": "El dueño ya vende y necesita decidir una prioridad con su equipo.",
+ "difference": "La guía de crecimiento cubre el panorama. Este ejemplo se limita al orden del día de una reunión y al registro de una decisión.",
+ "reviewer": "Pablo Villalobos",
+ "draft": "Antes de la reunión, pedile a quien ejecutó el último cambio que traiga la página modificada y una muestra de lo que veía el comprador antes.\n\nSi el equipo mejoró la ficha de producto, revisen juntos qué duda del cliente resolvieron. Anoten la fecha del cambio, el indicador que van a observar y cuándo volverán a abrirlo. Con pocos pedidos, dejá la conclusión pendiente.\n\nCerrá la reunión con una línea que todos puedan repetir: quién hace qué, para cuándo y qué evidencia va a entregar. Si todavía no sabés por dónde empezar, podés revisar tu tienda en The Ecom Audit.",
+ "sources": [{"url":"https://theecommethod.com/","supports":"La página pública describe diagnóstico, priorización y revisión con el equipo."},{"url":"https://www.theecomaudit.com/","supports":"La página de inicio ofrece un diagnóstico gratuito de páginas públicas."}]
+}
