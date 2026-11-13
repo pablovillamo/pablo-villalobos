@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es-CR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cómo importar productos a Shopify con un archivo CSV | Pablo Villalobos</title>
+  <meta name="description" content="Importe un catálogo a Shopify por lotes. Prepare el CSV, haga una prueba en borrador y revise identificadores, variantes, imágenes e inventario.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://www.pablo-villalobos.com/blog/importar-productos-shopify-csv/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Cómo importar productos a Shopify con un archivo CSV">
+  <meta property="og:description" content="Importe un catálogo a Shopify por lotes. Prepare el CSV, haga una prueba en borrador y revise identificadores, variantes, imágenes e inventario.">
+  <meta property="og:url" content="https://www.pablo-villalobos.com/blog/importar-productos-shopify-csv/">
+  <meta property="og:site_name" content="Pablo Villalobos">
+  <meta property="og:locale" content="es_CR">
+  <meta property="article:published_time" content="2026-11-13">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/blog/assets/blog.css">
+  <link rel="stylesheet" href="/analytics.css">
+  <script src="/analytics.js" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Cómo importar productos a Shopify con un archivo CSV", "description": "Importe un catálogo a Shopify por lotes. Prepare el CSV, haga una prueba en borrador y revise identificadores, variantes, imágenes e inventario.", "datePublished": "2026-11-13", "inLanguage": "es-CR", "author": {"@type": "Person", "name": "Pablo Villalobos", "url": "https://www.pablo-villalobos.com/pablo-villalobos/"}, "mainEntityOfPage": "https://www.pablo-villalobos.com/blog/importar-productos-shopify-csv/"}</script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <div class="progress" aria-hidden="true"></div>
+  <header><nav class="wrap" aria-label="Navegación principal"><a class="brand" href="/">PABLO VILLALOBOS<b> /</b></a><div class="navlinks"><a href="/blog/">Blog</a></div></nav></header>
+  <main class="wrap" id="contenido">
+    <div class="hero">
+      <div class="crumb"><a href="/">Inicio</a> / <a href="/blog/">Blog</a> / Catálogo Shopify</div>
+      <span class="eyebrow">Operación · Shopify</span>
+      <h1>Cómo importar productos a Shopify con un archivo CSV</h1>
+      <p class="intro">Importe un catálogo a Shopify por lotes. Prepare el CSV, haga una prueba en borrador y revise identificadores, variantes, imágenes e inventario.</p>
+      <div class="meta">Por <a href="/pablo-villalobos/" rel="author">Pablo Villalobos</a> · <time datetime="2026-11-13">13 de noviembre de 2026</time></div>
+    </div>
+    <div class="layout">
+      <aside class="toc" aria-label="Contenido del artículo"><a href="#preparacion">Preparar el archivo</a>
+<a href="#columnas">Revisar columnas</a>
+<a href="#prueba">Importar y comprobar</a></aside>
+      <article>
+        <h2 id="preparacion">Empiece con una exportación de su propia tienda</h2>
+<p>Si ya vende en Shopify, exporte los productos y guarde el archivo original como respaldo. Use otra copia para trabajar. Si todavía no tiene catálogo, <a href="https://help.shopify.com/es/manual/products/import-export/using-csv">descargue el CSV oficial de muestra</a> o exporte una ficha que haya armado como borrador. Eso le da los encabezados y el formato que espera Shopify.</p>
+<p>Para el primer lote elija dos o tres productos. Incluya uno simple y uno con variantes. Así puede comparar qué importa Shopify como producto y qué queda como una combinación de talla y color.</p>
+<h2 id="columnas">Revise estas columnas antes de importar</h2>
+<table><caption>Controles para un lote de prueba</caption><thead><tr><th scope="col">Campo</th><th scope="col">Qué revisar</th></tr></thead><tbody>
+<tr><td>Identificador de URL</td><td>Repítalo en las filas de las variantes del mismo producto. Use otro identificador para cada producto distinto.</td></tr>
+<tr><td>Título y opciones</td><td>Use la primera fila para la información principal. En filas adicionales mantenga el identificador y complete los datos de la variante según el ejemplo exportado.</td></tr>
+<tr><td>SKU y precio</td><td>Confirme la correspondencia con cada combinación. Conserve los códigos con ceros al inicio como texto al editar.</td></tr>
+<tr><td>Estado</td><td>Use <code>draft</code> para revisar un producto nuevo antes de publicarlo.</td></tr>
+<tr><td>Imágenes</td><td>Si las incluye, compruebe que las URL se puedan abrir sin iniciar sesión y correspondan al producto.</td></tr>
+</tbody></table>
+<p>Guarde en UTF-8 y con comas como separador. Si su hoja de cálculo exporta con punto y coma, compruebe el archivo como texto antes de subirlo. Si despacha desde varias sucursales, revise las cantidades por ubicación con el archivo de inventario correspondiente. <a href="https://help.shopify.com/es/manual/products/import-export/using-csv">Formato y columnas del CSV de Shopify</a>.</p>
+<h2 id="prueba">Importe una muestra y compárela con el archivo</h2>
+<ol>
+<li>En Shopify, abra <strong>Productos → Importar</strong> y adjunte la muestra. Para una primera prueba con productos nuevos, deje desactivada la opción de sobrescribir identificadores coincidentes.</li>
+<li>Revise la vista previa y confirme el lote. Abra después cada producto y cuente sus variantes. Compare precio, SKU, fotos, estado y existencias con su archivo.</li>
+<li>Si va a actualizar productos existentes, pruebe primero con un lote controlado. Con la sobrescritura activa, una columna opcional incluida pero vacía puede borrar el valor anterior. Conserve el respaldo y revise qué columnas envía.</li>
+</ol>
+<p><a href="https://help.shopify.com/es/manual/products/import-export/import-products">Pasos oficiales y precauciones para importar</a>.</p>
+<p>Amplíe el lote cuando otra persona del equipo pueda repetir la comparación y confirmar que los datos quedaron correctos. Si un producto se dividió en varias fichas, empiece por revisar sus identificadores y <a href="/blog/configurar-variantes-shopify/">la estructura de tallas y colores</a>.</p>
+        <aside class="cta-box">
+          <h2>¿Su catálogo ya está publicado?</h2>
+          <p>Revise qué señales públicas de su tienda pueden dificultar una compra con el informe gratuito de The Ecom Audit.</p>
+          <a class="btn" href="https://www.theecomaudit.com/?utm_source=pablo_blog&amp;utm_medium=referral&amp;utm_campaign=importar-productos-shopify-csv">Revise su tienda →</a>
+        </aside>
+      </article>
+    </div>
+  </main>
+  <footer><div class="wrap">Pablo Villalobos · <a href="/pablo-villalobos/">Sobre el autor</a></div></footer>
+  <script src="/blog/assets/blog.js" defer></script>
+</body>
+</html>
